@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+	line-height: 1.6;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	-
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+
+}
+.row{
+	display:flex;
+	flex-wrap: wrap;
+}
+img{ max-width: 100% }
+
+.container{
+	width: calc(100% - 300px);
+	margin: 0 auto;
+
+}
+.justify_content_center{
+	justify-content: center;
+}
+.justify_content_end{
+	justify-content: flex-end;
+}
+
